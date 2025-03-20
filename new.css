@@ -1,0 +1,18 @@
+.buttonC {
+	width: 70px;
+    height: 70px;
+    background-color: #4bc2ed;
+    position: fixed;
+    top: 105px;
+    right: 80px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-image: url(https://icon-library.com/images/oui-icons-38-512.png);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.alS {
+	background-color: green;
+}
