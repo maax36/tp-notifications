@@ -1,4 +1,5 @@
 //Кнопка уведомлений
+
 let checkElements;
 
 let zAlert = true;
@@ -19,7 +20,11 @@ alButton.addEventListener("click", function (e) {
  }
 });
 
-dBody.appendChild(alButton);
+if(document.URL == "https://toolsparts.ru/cms/admin/warehouse.php") {
+	dBody.appendChild(alButton);
+}
+
+
 
 
 	
